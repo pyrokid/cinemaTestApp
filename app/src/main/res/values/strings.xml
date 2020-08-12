@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cinema List</string>
+    <string name="string_genres">Жанры</string>
+    <string name="string_films">Фильмы</string>
+    <string name="string_retry">RETRY</string>
+    <string name="string_retry_alert">Что-то пошло не так,\n нажмите повторить</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="filmDetailsBackground">#D1D1D1</color>
+    <color name="ratingGreen">#308846</color>
+    <color name="ratingYellow">#C1A90F</color>
+    <color name="ratingRed">#A10512</color>
+</resources>
