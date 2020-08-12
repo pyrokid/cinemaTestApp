@@ -39,7 +39,7 @@ class FilmInfoFragment : MvpAppCompatFragment(), FilmInfoView {
             v.findViewById<TextView>(R.id.film_title).text = it.getString(ORIG_NAME)
             v.findViewById<TextView>(R.id.film_year).text = "Год: " + it.getInt("YEAR").toString()
             v.findViewById<TextView>(R.id.film_rating).text = setRatingColor(it.getDouble(RATING))
-            v.findViewById<TextView>(R.id.fil_description).text = it.getString("DESCRIPTION")
+            v.findViewById<TextView>(R.id.film_description).text = it.getString("DESCRIPTION")
             Picasso.get().load(it.getString("IMAGE")).centerCrop().resize(500, 500)
                 .error(R.drawable.ic_no_film_image).into(filmImage)
         }

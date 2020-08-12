@@ -17,6 +17,9 @@ class NetworkModule {
     @Singleton
     fun provideGson(): Gson = GsonBuilder().create()
 
+    //Unfortunately, android API under 21 doesn't support new TLS SSL protocols,
+    //so this app won't be able to connect to network on old devices 
+
     @Provides
     @Singleton
     fun provideOkHttp(): OkHttpClient = OkHttpClient.Builder().build()
